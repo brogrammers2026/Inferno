@@ -9,7 +9,7 @@ const firebaseConfig = {
   measurementId: "G-B4729784Q4"
 };
 import { collection, addDoc } from "firebase/firestore";
-import { db } from "./firebase.js";
+import {trial} from "./firebase.js";
 
 async function addStudent() {
   await addDoc(collection(db, "students"), {
