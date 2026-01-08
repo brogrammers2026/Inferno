@@ -8,6 +8,17 @@ const firebaseConfig = {
   appId: "1:858834476044:web:944b457fd2a7b0c0e42229",
   measurementId: "G-B4729784Q4"
 };
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "./firebase.js";
+
+async function addStudent() {
+  await addDoc(collection(db, "students"), {
+    name: "Ananya",
+    age: 19,
+    course: "Science",
+    marks: 88
+  });
+}
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
