@@ -1,16 +1,16 @@
 // --- FIREBASE CONFIGURATION ---
 // IMPORTANT: Replace with your actual Firebase project keys
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
+/*const firebaseConfig = {
+   //apiKey: "YOUR_API_KEY_HERE",
     authDomain: "YOUR_PROJECT.firebaseapp.com",
     projectId: "YOUR_PROJECT_ID",
     storageBucket: "YOUR_PROJECT.appspot.com",
     messagingSenderId: "SENDER_ID",
     appId: "APP_ID"
-};
+};*/
 
-let db = null;
-let app = null;
+//let db = null;
+//let app = null;
 
 // --- INITIALIZATION ---
 window.addEventListener('load', async () => {
